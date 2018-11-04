@@ -11,8 +11,9 @@ arrayOne[3] = "../prettyKitty.jpg";
 
 
 function transition() {
+    document.slideShow.src = images[i];
 
-if ( i < arrayOne.length -1){
+if ( i < arrayOne.length - 1){
     i++;
 } else {
     i=0;
@@ -20,3 +21,7 @@ if ( i < arrayOne.length -1){
 
 
 }
+
+setTimeout("transition()", delay);
+
+window.onload=transition; 
