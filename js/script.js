@@ -1,27 +1,31 @@
 
-var i = 0;
-var delay = 2500;
-var arrayOne = [];
 
+var i = 0; 			// Index
+var imgArray = [];	// Array of Images
+var time = 3500;	// Slide Delay
+	 
+// Image List
+imgArray[0] = "./img/oldFacefull.jpg";
+imgArray[1] = "./img/pierportBeachSouth.jpg";
+imgArray[2] = "./img/prettyKitty.jpg";
+imgArray[3] = "./img/pierportSign.jpg";
 
-arrayOne[0] = "../img/oldFacefull.jpg";
-arrayOne[1] = "../img/pierportBeachSouth.jpg";
-arrayOne[2] = "../img/oldFacefull.jpg";
-arrayOne[3] = "../img/prettyKitty.jpg";
+//Image Transition
+function transition(){
+	document.slide.src = imgArray[i];
 
+	// Check If Index is Less Than i
+	if(i < imgArray.length - 1){
+	  // Add 1 to Index
+	  i++; 
+	} else { 
+		// Reset Index Back To O
+		i = 0;
+	}
 
-function transition() {
-    document.getElementById('slideShow').src = images[i];
-
-if ( i < arrayOne.length - 1){
-    i++;
-} else {
-    i=0;
+	// Run function every x seconds
+	setTimeout("transition()", time);
 }
 
-
-}
-
-setTimeout("transition()", delay);
-
-window.onload=transition; 
+// Run function when page loads
+window.onload=transition;
