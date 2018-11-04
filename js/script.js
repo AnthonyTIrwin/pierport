@@ -12,7 +12,11 @@ arrayOne[3] = "../prettyKitty.jpg";
 
 function transition() {
 
-
+if ( i < arrayOne.length -1){
+    i++;
+} else {
+    i=0;
+}
 
 
 }
