@@ -4,4 +4,4 @@ var Time = 2500;
 var ArrayOne = [];
 
 
-ArrayOne[0] = "../";
+ArrayOne[0] = "../img/oldFacefull.jpg";
