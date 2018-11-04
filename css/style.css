@@ -21,7 +21,7 @@ body {
     margin: 6px 0;
 } */
 
-img{
+#pierportHistorical{
     width: 30%;
     height: 20%;
     padding: 10px;
@@ -79,6 +79,16 @@ footer {
     padding: 1rem;
     background: rgba(202, 167, 12, .5);
 }
+
+
+.firstDivTwo {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 10px;
+}
+
+
 
 @media (max-width: 480px) {
 
