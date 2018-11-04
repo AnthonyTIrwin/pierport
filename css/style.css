@@ -88,9 +88,42 @@ footer {
     padding: 10px;
 }
 
-
-
 @media (max-width: 480px) {
+
+
+
+	ul li {
+
+      display: block;
+
+    }
+    nav a {
+        border-radius: 0px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    #firstDivOne, .firstDivTwo{
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+    
+    }
+    
+    #firstDivOne p, .firstDivTwo {
+      padding: 5%;
+      margin: 0;
+      justify-content: center;
+      width: 90%;
+    }
+    
+    
+    }
+
+@media (max-width: 320px) {
 
 
 
@@ -108,7 +141,7 @@ footer {
     }
 
 
-    #firstDivOne{
+    #firstDivOne, .firstDivTwo{
       flex-direction: column;
       justify-content: center;
       padding: 0;
@@ -116,10 +149,9 @@ footer {
     
     }
     
-    #firstDivOne p {
+    #firstDivOne p, .firstDivTwo {
       padding: 5%;
       margin: 0;
-      background-color: rgba(202,167,12,.5);
       justify-content: center;
       width: 90%;
     }
