@@ -1,7 +1,18 @@
 
 var i = 0;
-var Time = 2500;
-var ArrayOne = [];
+var delay = 2500;
+var arrayOne = [];
 
 
-ArrayOne[0] = "../img/oldFacefull.jpg";
+arrayOne[0] = "../img/oldFacefull.jpg";
+arrayOne[1] = "../img/pierportBeachSouth.jpg";
+arrayOne[2] = "../img/oldFacefull.jpg";
+arrayOne[3] = "../prettyKitty.jpg";
+
+
+function transition() {
+
+
+
+
+}
