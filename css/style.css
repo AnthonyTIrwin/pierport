@@ -79,3 +79,25 @@ footer {
     padding: 1rem;
     background: rgba(202, 167, 12, .5);
 }
+
+@media (max-width: 320px) {
+
+    #firstDivOne {
+      background-color: lightblue;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+    
+    }
+    
+    #firstDivOne p {
+      padding: 5%;
+      margin: 0;
+      background-color: red;
+      justify-content: center;
+      width: 90%;
+    }
+    
+    
+    }
