@@ -1,78 +1,90 @@
 
 
+/* Background Image */
 body {   
     background-image: url(../img/pierportBeachSouth.jpg);
-    background-size: 100%;
+    background-size:100%;
     background-repeat: no-repeat;
     margin: 0;
     background-color: rgb(53, 39, 12);
 }
-        #pierportSiteTitle {
-            color: white;
-            text-align: center;
-            font-family: 'Playfair Display SC', serif;
-            padding: 0px;
-            margin: 0px;
-        
-        }
 
 
-/* #hamburgermenu {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-} */
-
-#navBarOne {
+/* navigation options in header */
+.navBarOne {
     background-color: rgba(202, 167, 12, .5);
     padding: 15px;
+    
 }
 nav a {
     background-color: rgba(0,0,0,.75);
     color: rgb(216, 215, 215);
     padding: 10px;
-    border-radius: 25px;
-    
+    /* border-radius: 25px; */
+    display: block;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 ul li {
     
-    display: inline;
-    
-    
+    display: inline; 
 }
 
-
-#firstDivOne {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    color: black;
-    margin: 50px;
-    border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.5);
-    
-    
-}
-        #pierportHistorical{
-            width: 30%;
-            height: 20%;
-            padding: 10px;
+/* Site Title */
+.title {
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    padding: 0px;
+    margin: 0px;      
         }
 
-#firstDivOne P {
+/* First Main Div */
+
+.firstDivOne {
+    /* display: flex; */
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    justify-content: space-between;
+    color: black;
+    /* margin: 50px; */
+    border-radius: 25px;
+}
+/* image in first main div */
+.pierportHistorical{   
+    width: 60%;
+    height: 20%;
+    padding: 10px;
+        }
+
+/* text blocks in first main div */
+.firstDivOne P {
     padding:10px;
-    width: 30%;
+    width: 90%;
 }
 
-#videoOne {
-    justify-content: center;
+/* second main division */
+.firstDivTwo {
+    /* display: flex; */
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 10px;
 }
+
+/*video in second main division */
+#videoOne {
+
+}
+
+/* footer */
 
 footer {
     position: relative;
@@ -83,81 +95,28 @@ footer {
     background: rgba(202, 167, 12, .5);
 }
 
+/* media query */
+@media only screen and (min-width: 480px) {
 
-.firstDivTwo {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
-    padding: 10px;
 }
 
-@media (max-width: 480px) {
+@media only screen and (min-width: 768px),
+       only screen and (min-width: 700px) and (orientation: landscape) {
+   
+   
+   
+   
+   
+ .firstDivOne p {  
+     display: flex; 
+  
+
+}
+
+ .title {
+   
+
+  }
 
 
 
-	ul li {
-
-      display: block;
-
-    }
-    nav a {
-        border-radius: 0px;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-    }
-
-
-    #firstDivOne, .firstDivTwo{
-      flex-direction: column;
-      justify-content: center;
-      padding: 0;
-      margin: 0;
-    
-    }
-    
-    #firstDivOne p, .firstDivTwo {
-      padding: 5%;
-      margin: 0;
-      justify-content: center;
-      width: 90%;
-    }
-    
-    
-    }
-
-@media (max-width: 320px) {
-
-
-
-	ul li {
-
-      display: block;
-      justify-content: center;
-
-    }
-    nav a {
-        border-radius: 0px;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-    }
-
-
-    #firstDivOne, .firstDivTwo{
-      flex-direction: column;
-      justify-content: center;
-      padding: 0;
-      margin: 0;
-    
-    }
-    
-    #firstDivOne p, .firstDivTwo {
-      padding: 5%;
-      margin: 0;
-      justify-content: center;
-      width: 90%;
-    }
-    
-    
-    }
