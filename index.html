@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 
 <html>
+<!-- head -->
 
 <head>
-  <title id="Pierport Michigan"></title>
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+	<title id="Pierport Michigan"></title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<!-- body -->
 
 <body>
-  <header>
-    <div id="navBarOne">
-      <nav>
-        <ul>
-        <li><a href="default.asp">About</a></li>
-        <li><a href="news.asp">Area Attractions</a></li>
-        <li><a href="contact.asp">Sitemap</a></li>
-        <li><a href="about.asp">Yes</a></li>
-        </ul>
+	<header>
+		<div class="navBar">
+			<nav>
+				<ul id="navList">
+					<li><a href="default.asp">Home</a></li>
+					<li><a href="news.asp">News</a></li>
+					<li><a href="contact.asp">Contact</a></li>
+					<li><a href="about.asp">About</a></li>
+				</ul>
 
-    </nav>
-   </div>
-  </header>
-  
-  
-  <main>
-    <div id="pierportSiteTitle">
-      <h1>Welcome to Pierport!</h1>
-    </div>
-    <div id="firstDivOne">
+			</nav>
+		</div>
+	</header>
 
-      <img id="pierportHistorical" src="img/pierportSign.jpg" alt="Black and white historical photo of a roadsign pointing to Pierport">
+	<!-- main content -->
+	<main>
+		<!-- site title -->
+		<div class="title">
+			<h1>Welcome to Pierport!</h1>
+		</div>
+		<!-- first division -->
+		<div class="topDiv">
+
+			<img class="pierportHistorical" src="img/pierportSign.jpg" alt="Black and white historical photo of a roadsign pointing to Pierport">
 
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum error ratione rem aspernatur nam, voluptatem, animi,
@@ -52,21 +58,18 @@
         obcaecati repudiandae! Enim, perspiciatis nulla blanditiis, fugit quasi quod odio nihil est at repudiandae
         explicabo magni soluta eligendi ullam molestias, ipsum ex aperiam.</p>
     </div>
-
-    <div class="firstDivTwo">
+   <!-- second division -->
+    <div class="bottomDiv">
 
       <div id="videoOne">
-      <video width="320" height="240" controls>
+      <video width="33%" height="33%" controls>
         <source src="video/pierportBeachVidOne.mp4" alt = "Pierport Beach Waves">
       </video>
-      
-      <div id="map"></div>
-      
       
     </div>
 
     <div>
-      <img name="slide" width="320" height="240">
+      <img name="slide" id="slideShow" width="33%" height="33%" >
     </div>
   </div>
     
@@ -78,7 +81,7 @@
   </main>
   
   
-  
+  <!-- footer -->
   <footer>
 <ul>
       <li>GNU Public License</li>
