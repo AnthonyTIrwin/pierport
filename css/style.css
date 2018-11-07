@@ -2,14 +2,16 @@
 
 /* Background Image */
 body {   
+    
+    max-width: 1000px;
     background-image: url(../img/pierportBeachSouth.jpg);
-    background-size:100%;
+    background-size:cover;
     background-repeat: no-repeat;
-    margin: 0;
+    margin: auto;
     background-color: rgb(53, 39, 12);
 }
 header {
-    min-height:100px;
+    /* min-height:100px; */
 }
 
 /* navigation options in header */
@@ -38,7 +40,7 @@ ul li {
 }
 
 /* Site Title */
-.title {
+#title {
     color: white;
     text-align: center;
     font-family: 'Playfair Display SC', serif;
@@ -48,10 +50,10 @@ ul li {
 
 /* First Main Div */
 
-.topDiv {
-    /* display: flex; */
-    display: block;
-    flex-wrap: wrap;
+#topDiv {
+    display: flex;
+    /* display: block; */
+    flex-wrap: no-wrap;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
     justify-content: space-between;
@@ -67,23 +69,25 @@ ul li {
         }
 
 /* text blocks in first main div */
-.topDiv P {
-    padding:10px;
-    width: 90%;
+#topDiv p {
+    padding:1%;
+    width: 33%;
     text-align: left; 
 }
 
 /* second main division */
-.bottomDiv {
+#bottomDiv {
     /* display: flex; */
+   display: flex;
     text-align: center;
     justify-content: space-evenly;
     background-color: black;
-    padding: 10px;
+    padding: 1%;
 }
 
 /*video in second main division */
 #videoOne {
+
 
 }
 
@@ -104,12 +108,42 @@ footer {
 
 @media only screen and (min-width: 480px) {
     
-    display: flex; 
+    #navList{
+    display: flex;
+     }
+
 }
 
 @media only screen and (min-width: 768px),
        only screen and (min-width: 700px) and (orientation: landscape) {
     }
+
+     #topDiv {
+       display:flex;
+     }
+
+     #topDiv p {
+       width: 35%;
+     }
+
+@media only screen and (min-width: 1140px) {
+
+  .wrapper {
+    width: 1026px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  nav a {
+    padding: 25px 1%;
+  }
+  
+}
+
+
  @viewport{
      zoom: 1.0;
      width: extend-to-zoom;
