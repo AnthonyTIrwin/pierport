@@ -7,8 +7,7 @@ var time = 3500;	// Slide Delay
 // Image List
 imgArray[0] = "./img/oldFacefull.jpg";
 imgArray[1] = "./img/pierportBeachSouth.jpg";
-imgArray[2] = "./img/prettyKitty.jpg";
-imgArray[3] = "./img/pierportSign.jpg";
+
 
 //Image Transition
 function transition(){
