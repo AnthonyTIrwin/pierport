@@ -63,13 +63,14 @@ ul li {
 }
 /* image in first main div */
 #pierportHistorical{   
-    width: 66%;
+    width: 75%;
     padding: 2%;
         }
 
 /* text blocks in first main div */
 #topDiv p {
     padding:1%;
+    margin: 0;
     width: 90%;
     text-align: left; 
 }
@@ -115,7 +116,9 @@ footer {
     #navList{
     display: flex;
      }
-     
+     #pierportHistorical {
+       width: 50%;
+     }
 
 }
 
@@ -123,7 +126,7 @@ footer {
        only screen and (min-width: 700px) and (orientation: landscape) {
     
     #pierportHistorical{   
-    width: 33%;
+    width: 25%;
     padding: 2%;
         }
 
