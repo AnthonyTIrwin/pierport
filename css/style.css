@@ -4,7 +4,7 @@
 body {   
     
     max-width: 1000px;
-    background-image: url(../img/pierportBeachSouth.jpg);
+    background-image: url(../img/wavesPierport.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     margin: auto;
@@ -17,7 +17,7 @@ header {
 
 /* navigation options in header */
 .navBar {
-    background-color: rgba(202, 167, 12, .5);
+    background-color: rgba(29, 28, 26, 0.5);
     padding: 15px;
     border-radius: 0 0 25px 25px;
     
@@ -48,16 +48,18 @@ ul li {
     padding: 0px;
     margin: 0px;   
         }
-
+#pierportTitle { 
+    width: 90%;
+    border-radius: 25px;
+}
 /* First Main Div */
 
 #topDiv {
     display: block;
-    flex-wrap: no-wrap;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0,0,0,.5);
     justify-content: space-between;
-    color: black;
+    color: rgb(247, 240, 240);
     border-radius: 25px 25px 0 0;
 }
 /* image in first main div */
@@ -71,13 +73,20 @@ ul li {
    
     margin: auto;
     width: 85%;
-    text-align: left; 
+    /* text-align: left;  */
+}
+#historicalPierport {
+    text-align: center;
+
+}
+
+.excerpt {
+    text-align: left;
 }
 
 /* second main division */
 
 #bottomDiv {
-    /* display: flex; */
    display: block;
     text-align: center;
     justify-content: safe;
@@ -98,7 +107,7 @@ footer {
     bottom:0;
     left:0;
     padding: 1rem;
-    background: rgba(202, 167, 12, .5);
+    background-color: rgba(29, 28, 26, 0.5);
 }
 
 /* media queries */
@@ -109,10 +118,19 @@ footer {
     #navList{
     display: flex;
      }
+
+     #pierportTitle {
+         width: 66%;
+     }
+
      #pierportHistorical {
-       width: 410px;
+       width: 75%;
+       padding: 2%;
 
      }
+     .excerpt {
+        text-align: left;
+    }
 
 }
 
@@ -124,14 +142,22 @@ footer {
                display:flex;
             }
             #pierportHistorical{   
-            width: 260px;
+               
+            
+            width: 410px;
             padding: 25px;
                 }
-            #topDiv p {
-                
-            width:90%;
+            
+            
+            
+                #topDiv p {
             padding: 1%;
-            }}
+            }
+            .excerpt {
+                text-align: left;
+                float: left;
+            }
+        }
             
 
  @viewport{
