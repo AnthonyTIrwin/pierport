@@ -19,6 +19,7 @@ header {
 .navBar {
     background-color: rgba(202, 167, 12, .5);
     padding: 15px;
+    border-radius: 0 0 25px 25px;
     
 }
 nav a {
@@ -61,15 +62,15 @@ ul li {
 }
 /* image in first main div */
 #pierportHistorical{   
-    width: 75%;
-    padding: 1%;
+    width: 80%;
+    
         }
 
 /* text blocks in first main div */
 #topDiv p {
-    padding:1%;
+   
     margin: auto;
-    width: 80%;
+    width: 85%;
     text-align: left; 
 }
 
@@ -84,11 +85,6 @@ ul li {
     padding: 1%;
 }
 
-/*video in second main division */
-#videoOne {
-
-
-}
 /* slideshow */
 #slideShow {
   width: 66%;
@@ -108,14 +104,14 @@ footer {
 /* media queries */
 
 
-
 @media only screen and (min-width: 480px) {
     
     #navList{
     display: flex;
      }
      #pierportHistorical {
-       width: 50%;
+       width: 410px;
+
      }
 
 }
@@ -123,20 +119,20 @@ footer {
 @media only screen and (min-width: 768px),
        only screen and (min-width: 700px) and (orientation: landscape) {
     
-    #pierportHistorical{   
-    width: 33%;
-    padding: 2%;
-        }
-
-     #topDiv {
-       display:flex;
-     }
-     #topDiv p {
-
-       width:90%;
-       padding: 5%;
-     }}
-
+           
+           #topDiv {
+               display:flex;
+            }
+            #pierportHistorical{   
+            width: 410px;
+            padding: 1%;
+                }
+            #topDiv p {
+                
+            width:90%;
+            padding: 1%;
+            }}
+            
 
  @viewport{
      zoom: 1.0;
