@@ -25,7 +25,6 @@ nav a {
     background-color: rgba(0,0,0,.75);
     color: rgb(216, 215, 215);
     padding: 10px;
-    /* border-radius: 25px; */
     display: block;
 }
 
@@ -52,7 +51,6 @@ ul li {
 /* First Main Div */
 
 #topDiv {
-    /* display: flex; */
     display: block;
     flex-wrap: no-wrap;
     text-align: center;
