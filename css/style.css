@@ -113,7 +113,14 @@ ul li {
 /* map division */
 /***************/
 
+#mapDiv {
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+}
 
+iframe {
+    width: 66%;
+}
 
 
 /**********/
@@ -140,6 +147,7 @@ footer {
 
      #pierportTitle {
          width: 66%;
+    
      }
 
      #pierportHistorical {
