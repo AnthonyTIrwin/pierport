@@ -1,6 +1,8 @@
 
-
+/********************/
 /* Background Image */
+/*******************/
+
 body {   
     
     max-width: 1000px;
@@ -10,7 +12,10 @@ body {
     margin: auto;
     background-color: rgb(3, 27, 24);
 }
+/**********/
 /* header */
+/*********/
+
 header {
     min-height:75px;
 }
@@ -39,8 +44,10 @@ ul li {
     
     display: inline; 
 }
-
+/**************/
 /* Site Title */
+/*************/
+
 #title {
     color: white;
     text-align: center;
@@ -52,7 +59,9 @@ ul li {
     width: 90%;
     border-radius: 25px;
 }
+/******************/
 /* First Main Div */
+/******************/
 
 #topDiv {
     display: block;
@@ -84,7 +93,9 @@ ul li {
     text-align: left;
 }
 
+/************************/
 /* second main division */
+/************************/
 
 #bottomDiv {
    display: block;
@@ -99,7 +110,10 @@ ul li {
   width: 66%;
 }
 
+
+/**********/
 /* footer */
+/**********/
 
 footer {
     position: relative;
@@ -109,9 +123,9 @@ footer {
     padding: 1rem;
     background-color: rgba(29, 28, 26, 0.5);
 }
-
+/*****************/
 /* media queries */
-
+/*****************/
 
 @media only screen and (min-width: 480px) {
     

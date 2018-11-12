@@ -17,8 +17,8 @@ function transition(){
 
 	// Check If Index is Less Than i
 	if(i < imgArray.length - 1){
-	  // Add 1 to Index
-	  i++; 
+	  // Generate random number for index
+	  i = Math.floor(Math.random() * 4); 
 	} else { 
 		// Reset Index Back To O
 		i = 0;
