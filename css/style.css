@@ -76,7 +76,7 @@ ul li {
     margin: 0;
 }
 /* image in first main div */
-#pierportHistorical{   
+#pierportSkyShot {   
     width: 80%;
     
         }
@@ -85,15 +85,19 @@ ul li {
 #topDiv p {
    
     margin: auto;
-    width: 85%;
+    text-align: left;
+    /* width: 85%; */
 }
-
+/* 
 #historicalPierport {
     text-align: center;
 
+} */
+#skyDown {
+    width:80%;
 }
 
-.excerpt {
+.excerpt h1 {
     text-align: left;
 }
 
@@ -168,10 +172,14 @@ footer {
          border-radius: 25px 25px 0 0;
      }
 
-     #pierportHistorical {
+     #pierportSkyShot {
        width: 75%;
        padding: 2%;
 
+     }
+
+     #skyDown {
+         width: 95%;
      }
      .excerpt {
         text-align: left;
@@ -182,26 +190,28 @@ footer {
 
 @media only screen and (min-width: 768px),
        only screen and (min-width: 700px) and (orientation: landscape) {
-    
-           
+          
            #topDiv {
                display:flex;
             }
-            #pierportHistorical{   
-               
-            
-            width: 410px;
-            padding: 25px;
+
+            #pierportSkyShot { 
+            width: 95%;
+            padding: 0;
                 }
             
-            
-            
-                #topDiv p {
+            /* #topDiv p {
             padding: 1%;
-            }
+            } */
             .excerpt {
                 text-align: left;
-                float: left;
+                padding: 2%;
+                width: 20%:
+            }
+
+            iframe {
+                width:100%;
+
             }
         }
             
