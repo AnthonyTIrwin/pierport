@@ -76,9 +76,9 @@ ul li {
     margin: 0;
 }
 /* image in first main div */
+
 #pierportSkyShot {   
     width: 80%;
-    
         }
 
 /* text blocks in first main div */
@@ -116,18 +116,6 @@ hr {
 /* slideshow */
 #slideShow {
   width: 66%;
-}
-/*****************/
-/* map division */
-/***************/
-
-#mapDiv {
-    text-align: center;
-    background-color: rgba(0,0,0,.5);
-}
-
-iframe {
-    width: 66%;
 }
 
 
@@ -175,10 +163,11 @@ footer {
      }
 
      #skyDown {
-         width: 95%;
+         width: 75%;
      }
      .excerpt {
         text-align: left;
+        padding: 2%;
     }
 
 
@@ -195,7 +184,9 @@ footer {
             width: 95%;
             padding: 0;
                 }
-            
+                #skyDown {
+                    width: 85%;
+                }
           .excerpt {
                 text-align: left;
                 padding: 2%;
@@ -203,7 +194,8 @@ footer {
             }
 
             iframe {
-                width:100%;
+                width:95%;
+                padding:3%;
 
             }
         }
