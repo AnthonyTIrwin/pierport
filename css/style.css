@@ -158,10 +158,10 @@ footer {
     display: flex;
      }
 
-     width: 85%;
      #pierportTitle {
          padding: 0%;
-    
+         width: 85%;
+         
      }
 
      #topDiv {
