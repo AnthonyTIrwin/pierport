@@ -88,11 +88,7 @@ ul li {
     text-align: left;
     /* width: 85%; */
 }
-/* 
-#historicalPierport {
-    text-align: center;
 
-} */
 #skyDown {
     width:80%;
 }
@@ -200,10 +196,7 @@ footer {
             padding: 0;
                 }
             
-            /* #topDiv p {
-            padding: 1%;
-            } */
-            .excerpt {
+          .excerpt {
                 text-align: left;
                 padding: 2%;
                 width: 20%:
