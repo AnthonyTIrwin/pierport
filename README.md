@@ -3,7 +3,9 @@
  ## Description
 ```
 The project is a vistor's page for a small rural costal community in N. Michigan.  It can be viewed by visiting this link:
+ 
  https://anthonytirwin.github.io/pierport/
+ 
  ```
  ## Custom CSS Classes
 ```
