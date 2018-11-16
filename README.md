@@ -3,7 +3,7 @@
  ## Description
 ```
 The project is a vistor's page for a small rural costal community in N. Michigan. 
-It can be viewed by visiting this link: https://anthonytirwin.github.io/pierport/
+It can be viewed by visiting this link: "https://anthonytirwin.github.io/pierport/"
  
  ```
  ## Custom CSS Classes
@@ -15,8 +15,7 @@ The class(es) I created are:
 .. sets the text align, background color, padding, margin, justifcaiton, text align and displays everything inside it in the block orientaiton. 
  3. #pierportSkyShot
  .. sets the width of the picture inside the container to 80%. 
-
-...
+```  
  ## Custom JavaScript Functions
 ```  
 The Javascript is the slideshow of images under the video.
